@@ -27,6 +27,10 @@ This project is set up with multiple flavors for different environments.
     ```sh
     flutter run --flavor dev -t lib/main_dev.dart
     ```
+    The development version uses a mocked login. You can use the following credentials to log in:
+    -   **Email**: `hoangduc.uit.dev@gmail.com`
+    -   **Password**: `Password123@@`
+
 -   **To run the Production version:**
     ```sh
     flutter run --flavor prod -t lib/main_prod.dart
