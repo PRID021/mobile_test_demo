@@ -1,0 +1,42 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # --- Style ---
+    prefer_single_quotes: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_final_fields: true
+    prefer_final_locals: true
+
+    # --- Imports ---
+    always_use_package_imports: true
+    avoid_relative_lib_imports: true
+
+    # --- Code Quality ---
+    avoid_print: true
+    unnecessary_this: true
+    avoid_redundant_argument_values: true
+    avoid_unused_constructor_parameters: true
+    avoid_unnecessary_containers: true
+    unnecessary_late: true
+    unnecessary_const: true
+    noop_primitive_operations: true
+
+    # --- Naming conventions ---
+    camel_case_types: true
+    camel_case_extensions: true
+
+    # --- Safety ---
+    avoid_dynamic_calls: true
+    null_closures: true
+
+    # --- Collections / Logic ---
+    avoid_function_literals_in_foreach_calls: true
+    always_put_control_body_on_new_line: true
+    always_declare_return_types: true
+
+analyzer:
+  exclude:
+    - build/**
+    - .fvm/**
